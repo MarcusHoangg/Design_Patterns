@@ -1,0 +1,8 @@
+# IntelliJ IDEA
+.idea/
+
+# Build output
+out/
+
+# Compiled Java files
+*.class
