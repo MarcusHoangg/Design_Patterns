@@ -2,7 +2,7 @@ import map.CityMap;
 import map.Map;
 import map.WildernessMap;
 
-public class Game {
+public class Game1 {
 
     public static void main(String[] args) {
         int rows = 8;
