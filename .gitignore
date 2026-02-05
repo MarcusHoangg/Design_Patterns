@@ -6,3 +6,6 @@ out/
 
 # Compiled Java files
 *.class
+
+*.log
+*.txt
