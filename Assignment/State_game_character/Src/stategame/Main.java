@@ -30,7 +30,7 @@ public class Main {
         }
 
         if (ch.getState() instanceof MasterState) {
-            System.out.println("\n*** Congratulations! You reached MASTER. Game ends. ***");
+            System.out.println("\n Congratulations! You reached MASTER. Game ends.t");
         }
 
         sc.close();
