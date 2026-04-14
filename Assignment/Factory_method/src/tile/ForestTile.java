@@ -1,6 +1,14 @@
 package tile;
 
 public class ForestTile implements Tile {
-    public char getCharacter() { return 'F'; }
-    public String getDescription() { return "forest"; }
+
+    @Override
+    public char getCharacter() {
+        return 'F';
+    }
+
+    @Override
+    public String getType() {
+        return "forest";
+    }
 }

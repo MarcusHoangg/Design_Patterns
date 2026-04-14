@@ -1,6 +1,14 @@
 package tile;
 
 public class BuildingTile implements Tile {
-    public char getCharacter() { return 'B'; }
-    public String getDescription() { return "building"; }
+
+    @Override
+    public char getCharacter() {
+        return 'B';
+    }
+
+    @Override
+    public String getType() {
+        return "building";
+    }
 }

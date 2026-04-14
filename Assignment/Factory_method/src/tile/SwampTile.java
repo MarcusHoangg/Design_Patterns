@@ -1,6 +1,14 @@
 package tile;
 
 public class SwampTile implements Tile {
-    public char getCharacter() { return 'S'; }
-    public String getDescription() { return "swamp"; }
+
+    @Override
+    public char getCharacter() {
+        return 'S';
+    }
+
+    @Override
+    public String getType() {
+        return "swamp";
+    }
 }

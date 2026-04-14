@@ -1,6 +1,14 @@
 package tile;
 
 public class WaterTile implements Tile {
-    public char getCharacter() { return 'W'; }
-    public String getDescription() { return "water"; }
+
+    @Override
+    public char getCharacter() {
+        return 'W';
+    }
+
+    @Override
+    public String getType() {
+        return "water";
+    }
 }
